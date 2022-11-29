@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+	font-family: 'Inter', sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+
+}
+
+body{
+	font-size: 1em;
+	background: #F9F5EB;
+
+}
+
+/*cabecalho*/
+
+#cabecalho{
+	background: #0096FF;
+	padding: 15px;
+	text-align: center;
+
+}
+
+#logo, #menu{
+	padding: 10px;
+}
+
+h1{
+  font-size: 2.5em;	
+}
+
+.detalhe{
+	color: #fff;
+}
+
+/*formatação links*/
+
+a:link, a:visited{
+	color: #0096FF ;
+
+}
+ 
+a:hover{
+	text-decoration: underline;
+	
+}
+
+#cabecalho a:link, #cabecalho a:visited{
+	color: #fff;
+	padding: 8px 12px;
+}
+
+#cabecalho a:hover{
+	color: #5800FF;
+	background: #fff;
+	border-radius: 2px;
+	text-decoration: none;
+}
+
+
+/*area principal*/
+#area-principal{
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#area-postagens{
+	width: 660px;
+	float: left;
+}
+
+#area-lateral{
+	width: 200px;
+	float: right;
+}
+
+.postagem{
+	padding: 20px;
+	margin-bottom: 20px;
+	background: #fff;
+}
+
+.conteudo-lateral{
+	background: #fff;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+
+/* titulos*/
+h2{
+	color:#0096FF ;
+}
+h3{
+	color:#0096FF ;
+	background: #CCC;
+	padding: 5px;
+}
+
+.data-postagem{
+	font-size: 0.8em;
+	border-bottom: 1px solid #f4f4f4;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.postagem-lateral{
+	font-size: 0.8em;
+	padding: 5px;
+	
+}
+
+
+
+/*footer*/
+#rodape{
+	background: yellow;
+	text-align: center;
+	padding: 15px;
+	background: #0096FF;
+	color: #fff;
+	font-weight: bold;
+	clear: both;
+}
+
+
